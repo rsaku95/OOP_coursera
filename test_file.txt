@@ -1,0 +1,10 @@
+Testing RAII resource management
+Testing RAII resource management
+Testing RAII resource management
+Testing RAII resource management
+Testing RAII resource management
+Testing RAII resource management - from copy constructor
+Testing RAII resource management
+Testing RAII resource management - from copy constructor
+Testing RAII resource management
+Testing RAII resource management - from copy constructor
