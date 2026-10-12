@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\OOP_coursera\\lab1_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab1_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\OOP_coursera\\lab2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "lab1_1.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\lab1_1.cpp",
-              "RelativeDocumentMoniker": "lab1_1.cpp",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\lab1_1.cpp",
-              "RelativeToolTip": "lab1_1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "lab2.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\lab2.cpp",
+              "RelativeDocumentMoniker": "lab2.cpp",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\lab2.cpp",
+              "RelativeToolTip": "lab2.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-06T21:46:32.413Z",
+              "WhenOpened": "2026-10-12T15:18:19.892Z",
               "EditorCaption": ""
             }
           ]
