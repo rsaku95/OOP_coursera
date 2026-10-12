@@ -1,0 +1,3 @@
+Hello RAII!
+Hello RAII!
+RAII -> Resource Aquisition is Initialization
