@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|solutionrelative:lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|solutionrelative:lab2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,14 +23,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "lab1.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp",
+              "RelativeDocumentMoniker": "lab1.cpp",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp",
+              "RelativeToolTip": "lab1.cpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-13T15:01:24.461Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "lab2.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab2.cpp",
               "RelativeDocumentMoniker": "lab2.cpp",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab2.cpp",
               "RelativeToolTip": "lab2.cpp",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-12T16:02:05.348Z",
+              "WhenOpened": "2026-10-13T15:01:47.992Z",
               "EditorCaption": ""
             },
             {
