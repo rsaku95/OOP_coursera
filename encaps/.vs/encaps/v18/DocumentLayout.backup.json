@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,14 +28,10 @@
               "RelativeDocumentMoniker": "lab1.cpp",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp",
               "RelativeToolTip": "lab1.cpp",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABICAAAAAAAAAAAAwB0CAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-15T19:35:19.314Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
