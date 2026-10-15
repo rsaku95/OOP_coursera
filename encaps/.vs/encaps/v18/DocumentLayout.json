@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|solutionrelative:lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|solutionrelative:lab2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,31 +24,14 @@
               "RelativeDocumentMoniker": "lab1.cpp",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp",
               "RelativeToolTip": "lab1.cpp",
-              "ViewState": "AgIAAJcCAAAAAAAAAAAgwKoCAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABICAAAAAAAAAAAAwB0CAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-13T15:01:24.461Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-10-15T19:35:19.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "lab2.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab2.cpp",
-              "RelativeDocumentMoniker": "lab2.cpp",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab2.cpp",
-              "RelativeToolTip": "lab2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-13T15:01:47.992Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
