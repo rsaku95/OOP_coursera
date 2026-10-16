@@ -1,3 +1,4 @@
-﻿  lab1.cpp
-C:\Users\PC\source\repos\OOP_coursera\encaps\lab1.cpp(225,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  encaps.vcxproj -> C:\Users\PC\source\repos\OOP_coursera\encaps\x64\Debug\encaps.exe
+﻿  lab1.2.cpp
+C:\Users\PC\source\repos\OOP_coursera\encaps\lab1.2.cpp(65,50): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+lab1.obj : error LNK2005: main already defined in lab1.2.obj
+C:\Users\PC\source\repos\OOP_coursera\encaps\x64\Debug\encaps.exe : fatal error LNK1169: one or more multiply defined symbols found

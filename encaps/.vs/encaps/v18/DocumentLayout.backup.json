@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|solutionrelative:lab1.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1004B09-18E6-048C-F2FD-046088FB2496}|encaps.vcxproj|solutionrelative:lab1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "lab1.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp",
               "RelativeDocumentMoniker": "lab1.cpp",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.cpp",
               "RelativeToolTip": "lab1.cpp",
-              "ViewState": "AgIAABICAAAAAAAAAAAAwB0CAAADAAAAAAAAAA==",
+              "ViewState": "AgIAALMBAAAAAAAAAAAAAE8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-15T19:35:19.314Z",
+              "WhenOpened": "2026-10-16T20:07:05.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lab1.2.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.2.cpp",
+              "RelativeDocumentMoniker": "lab1.2.cpp",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\OOP_coursera\\encaps\\lab1.2.cpp",
+              "RelativeToolTip": "lab1.2.cpp",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAMUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-16T19:47:33.823Z",
               "EditorCaption": ""
             }
           ]
