@@ -1,0 +1,3 @@
+﻿  Source.cpp
+Source.obj : error LNK2005: main already defined in refs_ptrs.obj
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\x64\Debug\refs_ptrs.exe : fatal error LNK1169: one or more multiply defined symbols found
