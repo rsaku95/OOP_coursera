@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lab1.cpp" />
     <ClCompile Include="refs_ptrs.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
