@@ -1,3 +1,7 @@
-﻿  Source.cpp
-Source.obj : error LNK2005: main already defined in refs_ptrs.obj
+﻿  purchaseCode.cpp
+  Source.cpp
+  Generating Code...
+purchaseCode.obj : error LNK2005: main already defined in lab1.obj
+refs_ptrs.obj : error LNK2005: main already defined in lab1.obj
+Source.obj : error LNK2005: main already defined in lab1.obj
 C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\x64\Debug\refs_ptrs.exe : fatal error LNK1169: one or more multiply defined symbols found
