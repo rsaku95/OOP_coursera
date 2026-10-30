@@ -1,7 +1,251 @@
-﻿  purchaseCode.cpp
-  Source.cpp
+﻿  NewFile.cpp
+  purchaseCode.cpp
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(145,7): error C2065: 'products': undeclared identifier
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(147,18): error C2065: 'products': undeclared identifier
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(147,36): error C3536: 'it': cannot be used before it is initialized
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(147,42): error C2065: 'products': undeclared identifier
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,48): error C2672: 'std::get': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1151,34):
+      could be 'const _Ty &&std::get(const std::tuple<_Types...> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1139,28):
+      or       '_Ty &&std::get(std::tuple<_Types...> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1127,33):
+      or       'const _Ty &std::get(const std::tuple<_Types...> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1115,27):
+      or       '_Ty &std::get(std::tuple<_Types...> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_iter_core.hpp(435,31):
+      or       'auto std::ranges::get(const std::ranges::subrange<_It,_Se,_Ki> &)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_iter_core.hpp(439,31):
+      or       'auto std::ranges::get(std::ranges::subrange<_It,_Se,_Ki> &&)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(821,35):
+      or       'const _Ty2 &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(815,35):
+      or       'const _Ty1 &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(805,70):
+      or       'const tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(799,29):
+      or       '_Ty2 &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(793,29):
+      or       '_Ty1 &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(783,64):
+      or       'tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(777,34):
+      or       'const _Ty2 &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(771,34):
+      or       'const _Ty1 &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(761,69):
+      or       'const tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(755,28):
+      or       '_Ty2 &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(749,28):
+      or       '_Ty1 &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,52):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(739,63):
+      or       'tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(209,34):
+      or       'const _Ty &&std::get(const std::array<_Ty,_Size> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(206,28):
+      or       '_Ty &&std::get(std::array<_Ty,_Size> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(203,33):
+      or       'const _Ty &std::get(const std::array<_Ty,_Size> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(200,27):
+      or       '_Ty &std::get(std::array<_Ty,_Size> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(197,72):
+      or       'const tuple_element<_Index,std::tuple<_Types...>>::type &&std::get(const std::tuple<_Types...> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(194,66):
+      or       'tuple_element<_Index,std::tuple<_Types...>>::type &&std::get(std::tuple<_Types...> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(191,71):
+      or       'const tuple_element<_Index,std::tuple<_Types...>>::type &std::get(const std::tuple<_Types...> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(188,65):
+      or       'tuple_element<_Index,std::tuple<_Types...>>::type &std::get(std::tuple<_Types...> &) noexcept'
+  
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,85): error C2672: 'std::get': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1151,34):
+      could be 'const _Ty &&std::get(const std::tuple<_Types...> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1139,28):
+      or       '_Ty &&std::get(std::tuple<_Types...> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1127,33):
+      or       'const _Ty &std::get(const std::tuple<_Types...> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1115,27):
+      or       '_Ty &std::get(std::tuple<_Types...> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_iter_core.hpp(435,31):
+      or       'auto std::ranges::get(const std::ranges::subrange<_It,_Se,_Ki> &)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_iter_core.hpp(439,31):
+      or       'auto std::ranges::get(std::ranges::subrange<_It,_Se,_Ki> &&)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(821,35):
+      or       'const _Ty2 &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(815,35):
+      or       'const _Ty1 &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(805,70):
+      or       'const tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(799,29):
+      or       '_Ty2 &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(793,29):
+      or       '_Ty1 &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(783,64):
+      or       'tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(777,34):
+      or       'const _Ty2 &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(771,34):
+      or       'const _Ty1 &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(761,69):
+      or       'const tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(755,28):
+      or       '_Ty2 &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(749,28):
+      or       '_Ty1 &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,89):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(739,63):
+      or       'tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(209,34):
+      or       'const _Ty &&std::get(const std::array<_Ty,_Size> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(206,28):
+      or       '_Ty &&std::get(std::array<_Ty,_Size> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(203,33):
+      or       'const _Ty &std::get(const std::array<_Ty,_Size> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(200,27):
+      or       '_Ty &std::get(std::array<_Ty,_Size> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(197,72):
+      or       'const tuple_element<_Index,std::tuple<_Types...>>::type &&std::get(const std::tuple<_Types...> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(194,66):
+      or       'tuple_element<_Index,std::tuple<_Types...>>::type &&std::get(std::tuple<_Types...> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(191,71):
+      or       'const tuple_element<_Index,std::tuple<_Types...>>::type &std::get(const std::tuple<_Types...> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(188,65):
+      or       'tuple_element<_Index,std::tuple<_Types...>>::type &std::get(std::tuple<_Types...> &) noexcept'
+  
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,124): error C2672: 'std::get': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1151,34):
+      could be 'const _Ty &&std::get(const std::tuple<_Types...> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1139,28):
+      or       '_Ty &&std::get(std::tuple<_Types...> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1127,33):
+      or       'const _Ty &std::get(const std::tuple<_Types...> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\tuple(1115,27):
+      or       '_Ty &std::get(std::tuple<_Types...> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_iter_core.hpp(435,31):
+      or       'auto std::ranges::get(const std::ranges::subrange<_It,_Se,_Ki> &)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_iter_core.hpp(439,31):
+      or       'auto std::ranges::get(std::ranges::subrange<_It,_Se,_Ki> &&)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(821,35):
+      or       'const _Ty2 &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(815,35):
+      or       'const _Ty1 &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(805,70):
+      or       'const tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &&std::get(const std::pair<_Ty1,_Ty2> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(799,29):
+      or       '_Ty2 &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(793,29):
+      or       '_Ty1 &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(783,64):
+      or       'tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &&std::get(std::pair<_Ty1,_Ty2> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(777,34):
+      or       'const _Ty2 &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(771,34):
+      or       'const _Ty1 &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(761,69):
+      or       'const tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(const std::pair<_Ty1,_Ty2> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(755,28):
+      or       '_Ty2 &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty2', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(749,28):
+      or       '_Ty1 &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(148,128):
+          'std::get': invalid template argument for '_Ty1', type expected
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(739,63):
+      or       'tuple_element<_Idx,std::pair<_Ty1,_Ty2>>::type &std::get(std::pair<_Ty1,_Ty2> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(209,34):
+      or       'const _Ty &&std::get(const std::array<_Ty,_Size> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(206,28):
+      or       '_Ty &&std::get(std::array<_Ty,_Size> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(203,33):
+      or       'const _Ty &std::get(const std::array<_Ty,_Size> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(200,27):
+      or       '_Ty &std::get(std::array<_Ty,_Size> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(197,72):
+      or       'const tuple_element<_Index,std::tuple<_Types...>>::type &&std::get(const std::tuple<_Types...> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(194,66):
+      or       'tuple_element<_Index,std::tuple<_Types...>>::type &&std::get(std::tuple<_Types...> &&) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(191,71):
+      or       'const tuple_element<_Index,std::tuple<_Types...>>::type &std::get(const std::tuple<_Types...> &) noexcept'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(188,65):
+      or       'tuple_element<_Index,std::tuple<_Types...>>::type &std::get(std::tuple<_Types...> &) noexcept'
+  
+C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(266,16): error C2665: 'Product::Product': no overloaded function could convert all the argument types
+      C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(68,2):
+      could be 'Product::Product(const int &,const std::string &,const std::string &,const double &,bool &)'
+          C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(266,16):
+          'Product::Product(const int &,const std::string &,const std::string &,const double &,bool &)': cannot convert argument 5 from 'bool' to 'bool &'
+              C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(266,71):
+              A non-const reference may only be bound to an lvalue
+      C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\refs_ptrs\purchaseCode.cpp(266,16):
+      while trying to match the argument list '(int, std::string, std::string, double, bool)'
+  
   Generating Code...
-purchaseCode.obj : error LNK2005: main already defined in lab1.obj
-refs_ptrs.obj : error LNK2005: main already defined in lab1.obj
-Source.obj : error LNK2005: main already defined in lab1.obj
-C:\Users\PC\source\repos\OOP_coursera\refs_and_ptrs\refs_ptrs\x64\Debug\refs_ptrs.exe : fatal error LNK1169: one or more multiply defined symbols found

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lab1.cpp" />
+    <ClCompile Include="NewFile.cpp" />
     <ClCompile Include="purchaseCode.cpp" />
     <ClCompile Include="refs_ptrs.cpp" />
     <ClCompile Include="Source.cpp" />

@@ -1,13 +1,21 @@
 #include <iostream>
 #include <string>
-#include <vector>
+#include <vector> //unused
 #include <map>
 #include <stdexcept>
 #include <tuple>
 #include <limits>
-#include <cmath>
+#include <cmath> // unused
 
 using namespace std;
+
+/*
+* 
+* Avoid `using namespace std;` at global scope because it increases the risk of symbol collisions.
+* Prefer qualifying (`std::`) or importing only what you use via targeted `using std::cout;` etc.
+* 
+*/
+
 // 1. Structural Aliases for easier readability
 using product_Tuple = tuple<string, string, double>;
 using staging_Map = map<int, product_Tuple>;
@@ -16,12 +24,17 @@ using staging_Map = map<int, product_Tuple>;
 class Product {
 private:
 	int productId;
-	string productName;
-	string productVendor;
+	string productName, productVendor;
 	double quantity;
 	bool active;
 
-	map<int, tuple<string, string, double>> products;
+	map<int, tuple<string, string, double>> products; 
+	
+	/*`Product::products` is never populated anywhere, so `displayInformation()` will always throw on a newly constructed `Product`,
+	*   causing the program to exit via the outer catch. Either (a) remove `products` from `Product` and display this instance’s fields
+	*	(`productId`, `productName`, etc.), or (b) ensure `products` is populated before calling `displayInformation()`.
+	* 
+	*/
 
 	bool isValidProductId(const int& product_id) const {
 		if (product_id >= 1000) {
@@ -58,9 +71,25 @@ private:
 		else return false;
 	}
 
+	/*
+	* 
+	* These validation helpers are overly verbose and repeat the same if (...) return true; else return false; pattern.
+	* Simplify them to return the boolean expression directly (and consider whether isActive is necessary at all,
+	* since it currently just mirrors the input).
+	* 
+	*/
 
 public:
-	Product(const int& prodId, const string& prodName, const string& prodVend, const double& prodQty, bool& active_) :
+	Product(const int& prodId, const string& prodName, const string& prodVend, const double& prodQty, bool active_) :
+
+		/*
+		* 
+		* Product / setActive take bool&, but main passes the literal true, which cannot bind to a non-const lvalue reference (this won’t compile).
+		* Make these parameters bool (by value) or const bool& to accept temporaries, and update call sites accordingly.
+		* 
+		*/
+
+
 			productId(prodId), productName(prodName), productVendor(prodVend), quantity(prodQty), active(active_){
 		
 		if (!setProductId(prodId)) {
@@ -78,7 +107,7 @@ public:
 		if (!setActive(active_)){
 			throw invalid_argument("Product must be active.");
 		}
-		cout << "\nProduct intialized" << endl;
+		cout << "\nProduct initialized" << endl;
 	}
 	~Product() {
 	}
@@ -127,6 +156,12 @@ public:
 	}
 
 	bool setActive(bool& active_){
+		/*
+		*  
+		*  Product / setActive take bool&, but main passes the literal true, which cannot bind to a non-const lvalue reference (this won’t compile).
+		*  Make these parameters bool (by value) or const bool& to accept temporaries, and update call sites accordingly.
+		* 
+		*/
 		if (isActive(active_)){
 			active = active_;
 			//cout << "setActive set!" << endl;
@@ -138,6 +173,10 @@ public:
 		cout << "Displaying info\n" << endl;
 
 		if (products.empty()) throw out_of_range("Empty");
+		/* 
+		*  The exception message \"Empty\" is too vague to diagnose.
+		*  Include context like which collection is empty and what the caller should do (e.g., \"No products to display\").
+		*/
 
 		for (auto it = products.begin(); it != products.end(); it++) {
 			cout << "ID: " << it->first << " Name: " << get<0>(it->second) << " Vendor: " << get<1>(it->second) << " Quantity: " << get<2>(it->second) << endl;
@@ -180,10 +219,24 @@ class DataBaseManager {
 
 			return regs;
 		}
-
+		/* 
+		*  readRegistry() always returns an empty map, ignoring databaseRecords set in writeData(). 
+		*  If the intent is to read back what was written, return databaseRecords (or a copy of it) or implement actual persistence.
+		*/
 };
 
 double inputValidation(const string& prompt) {
+
+	/*
+	* 
+	* The input validation functions introduce several behaviors that are easy to regress 
+	* (non-numeric input, out-of-range numbers, EOF handling, whitespace-only names, negative/zero quantities). 
+	* Add unit tests around these edge cases to ensure the loops and error paths behave as intended.
+	*
+	*/
+	
+	
+	
 
 	bool invalid;
 	string val;
@@ -206,12 +259,27 @@ double inputValidation(const string& prompt) {
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			}else invalid = false;
 		}
+		/*
+		* 
+		* stod(val) can throw (std::invalid_argument / std::out_of_range) for non-numeric input; 
+		* currently that exception escapes and aborts the loop/program. 
+		* Wrap the conversion in a try/catch and re-prompt on conversion failures.
+		*
+		*/
+		
 	} while (invalid);
 	
 	return value;
 }
 
 string nameValidation(const string& prompt) {
+
+	/*
+	* 
+	* The input validation functions introduce several behaviors that are easy to regress (non-numeric input, out-of-range numbers, EOF handling, whitespace-only names, negative/zero quantities). 
+	* Add unit tests around these edge cases to ensure the loops and error paths behave as intended.
+	* 
+	*/
 	
 	string name;
 	bool invalid;
@@ -259,9 +327,24 @@ int main() {
 			product_qty = inputValidation("Enter quantity: ");
 
 			Product prod(order_number, product_name, vendor_name, product_qty, true);
-			prod.displayInformation();
 
-			// Construct directly inside vector memory using input elements. 
+
+			/*
+			* 
+			* Product / setActive take bool&, but main passes the literal true, which cannot bind to a non-const lvalue reference (this won’t compile). 			* 
+			* Make these parameters bool (by value) or const bool& to accept temporaries, and update call sites accordingly.
+			* 
+			*/
+			prod.displayInformation();
+			/*
+			* 
+			* `Product::products` is never populated anywhere, so `displayInformation()` will always throw on a newly constructed `Product`,
+			* causing the program to exit via the outer catch. Either (a) remove `products` from `Product` 
+			* and display this instance’s fields (`productId`, `productName`, etc.), or (b) ensure `products` is populated before calling `displayInformation()`.
+			*
+			*/
+
+			// Construct directly inside map memory using input elements. 
 			registry.emplace(piecewise_construct, forward_as_tuple(order_number), forward_as_tuple(move(product_name), move(vendor_name), product_qty));
 
 			choice = static_cast<int>(inputValidation("Exit? (yes:1, no:0): "));

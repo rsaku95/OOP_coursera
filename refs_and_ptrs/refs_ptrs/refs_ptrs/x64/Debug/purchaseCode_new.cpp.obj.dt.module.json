@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\purchaseCode_new.obj",
+            "outputs": [
+                "x64\\Debug\\purchaseCode_new.cpp.obj.dt.module.json",
+                "x64\\Debug\\purchaseCode_new.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
